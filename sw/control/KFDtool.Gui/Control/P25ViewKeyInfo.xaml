@@ -17,6 +17,7 @@
                 <DataGridTextColumn Binding="{Binding Path=Sln, StringFormat={}{0} (0x{0:X})}" Header="SLN" />
                 <DataGridTextColumn Binding="{Binding Path=KeyId, StringFormat={}{0} (0x{0:X})}" Header="Key ID" />
                 <DataGridTextColumn Binding="{Binding Path=AlgorithmId, Converter={StaticResource algorithmFormatConverter}}" Header="Algorithm" />
+                <DataGridTextColumn Binding="{Binding Path=Key, StringFormat={}{0} (0x{0:X})}" Header="Key" />
             </DataGrid.Columns>
         </DataGrid>
         <Button Click="Update_Click" Content="Update" HorizontalAlignment="Left" Margin="73,87,0,0" VerticalAlignment="Top" Width="75"/>
