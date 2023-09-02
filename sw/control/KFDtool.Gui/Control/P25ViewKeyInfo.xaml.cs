@@ -49,6 +49,7 @@ namespace KFDtool.Gui.Control
 
                 KeyItems.Items.SortDescriptions.Add(new SortDescription("KeysetId", ListSortDirection.Ascending));
                 KeyItems.Items.SortDescriptions.Add(new SortDescription("Sln", ListSortDirection.Ascending));
+                KeyItems.Items.SortDescriptions.Add(new SortDescription("Key", ListSortDirection.Ascending));
 
                 MessageBox.Show(string.Format("{0} key(s) returned", keys.Count), "Information", MessageBoxButton.OK, MessageBoxImage.Information);
             }
